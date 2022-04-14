@@ -18,8 +18,23 @@
 
 <body>
     <?php include_once "../components/nav.php"; ?>
-    <main class="home-page">
-        <!--  -->
+    <main class="explore-page page-padding">
+        <div class="social_link">
+            <ul>
+                <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </li>
+            </ul>
+        </div>
         <section class="slides">
 
             <section class="slides-nav">
@@ -32,13 +47,16 @@
             <section class="slide is-active">
                 <div class="slide__content">
                     <figure class="slide__figure">
-                        <div class="slide__img" style="background-image: url(https://source.unsplash.com/nfTA8pdaq9A/2000x1100)"></div>
+                        <div class="slide__img" style="background-image: url(../assets/media/images/r-2.png)"></div>
                     </figure>
                     <header class="slide__header">
                         <h2 class="slide__title">
-                            <span class="title-line"><span>Click, Key</span></span>
-                            <span class="title-line"><span>Or Scroll Fool</span></span>
+                            <span class="title-line"><a href="../pages/calligraphy-images.php">View Gallery</a></span>
                         </h2>
+                        <h3 class="slide__heading">
+                            <a href="" class="travel-heading">Travel </a>
+                            <a href="../pages/meghalaya-blog-details.php" class="slide__heading-sub">Meghalaya</a>
+                        </h3>
                     </header>
                 </div>
             </section>
@@ -46,13 +64,16 @@
             <section class="slide">
                 <div class="slide__content">
                     <figure class="slide__figure">
-                        <div class="slide__img" style="background-image: url(https://source.unsplash.com/okmtVMuBzkQ/2000x1100)"></div>
+                        <div class="slide__img" style="background-image: url(../assets/media/images/r-2.png)"></div>
                     </figure>
                     <header class="slide__header">
                         <h2 class="slide__title">
-                            <span class="title-line"><span>Slide Two</span></span>
-                            <span class="title-line"><span>Dood Mood</span></span>
+                            <span class="title-line"><a href="../pages/calligraphy-images.php">View Gallery</a></span>
                         </h2>
+                        <h3 class="slide__heading">
+                            <a href="" class="travel-heading">Travel </a>
+                            <a href="" class="slide__heading-sub">Meghalaya</a>
+                        </h3>
                     </header>
                 </div>
             </section>
@@ -60,13 +81,16 @@
             <section class="slide">
                 <div class="slide__content">
                     <figure class="slide__figure">
-                        <div class="slide__img" style="background-image: url(https://source.unsplash.com/WuQME0I_oZA/2000x1100)"></div>
+                        <div class="slide__img" style="background-image: url(../assets/media/images/r-1.png)"></div>
                     </figure>
                     <header class="slide__header">
                         <h2 class="slide__title">
-                            <span class="title-line"><span>This Right</span></span>
-                            <span class="title-line"><span>Here Makes Three</span></span>
+                            <span class="title-line"><a href="../pages/calligraphy-images.php">View Gallery</a></span>
                         </h2>
+                        <h3 class="slide__heading">
+                            <a href="" class="travel-heading">Travel </a>
+                            <a href="" class="slide__heading-sub">Aasam</a>
+                        </h3>
                     </header>
                 </div>
             </section>
@@ -74,17 +98,74 @@
             <section class="slide">
                 <div class="slide__content">
                     <figure class="slide__figure">
-                        <div class="slide__img" style="background-image: url(https://source.unsplash.com/NsWcRlBT_74/2000x1100)"></div>
+                        <div class="slide__img" style="background-image: url(../assets/media/images/r-3.png)"></div>
                     </figure>
                     <header class="slide__header">
                         <h2 class="slide__title">
-                            <span class="title-line"><span>How Now</span></span>
-                            <span class="title-line"><span>Part Four More</span></span>
+                            <span class="title-line"><a href="../pages/calligraphy-images.php">View Gallery</a></span>
                         </h2>
+                        <h3 class="slide__heading">
+                            <a href="" class="travel-heading">Travel </a>
+                            <a href="" class="slide__heading-sub">Arunachal Pradesh</a>
+                        </h3>
+                    </header>
+                </div>
+            </section>
+            <section class="slide">
+                <div class="slide__content">
+                    <figure class="slide__figure">
+                        <div class="slide__img" style="background-image: url(../assets/media/images/r-2.png)"></div>
+                    </figure>
+                    <header class="slide__header">
+                        <h2 class="slide__title">
+                            <span class="title-line"><a href="../pages/calligraphy-images.php">View Gallery</a></span>
+                        </h2>
+                        <h3 class="slide__heading">
+                            <a href="" class="travel-heading">Travel </a>
+                            <a href="" class="slide__heading-sub">Ladhak</a>
+                        </h3>
+                    </header>
+                </div>
+            </section>
+            <section class="slide">
+                <div class="slide__content">
+                    <figure class="slide__figure">
+                        <div class="slide__img" style="background-image: url(../assets/media/images/r-3.png)"></div>
+                    </figure>
+                    <header class="slide__header">
+                        <h2 class="slide__title">
+                            <span class="title-line"><a href="../pages/calligraphy-images.php">View Gallery</a></span>
+                        </h2>
+                        <h3 class="slide__heading">
+                            <a href="" class="travel-heading">Travel </a>
+                            <a href="" class="slide__heading-sub">Rajasthan</a>
+                        </h3>
                     </header>
                 </div>
             </section>
         </section>
+        <!--  -->
+        <section class="travel-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="travel-link">
+                            <ul>
+                                <li><a href="#" > Ladhak </a></li>
+                                <li><a href="#" > Arunachal </a></li>
+                                <li><a href="#" > Aasam </a></li>
+                                <li><a href="../pages/meghalaya-blog-details.php" > Meghalaya </a></li>
+                                <li><a href="#" > Himachal </a></li>
+                                <li><a href="#" > Rajasthan </a></li>
+                                <li><a href="#" > Maharashtra </a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
     <?php include_once "../components/footer.php"; ?>
     <script>
@@ -136,8 +217,7 @@
                         if (Math.abs(s.delta) >= s.scrollThreshold) {
                             SliceSlider.prevSlide();
                         }
-                    }
-                    else {
+                    } else {
 
                         s.delta++;
 

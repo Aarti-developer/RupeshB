@@ -5,12 +5,12 @@
     <nav class="pc_navbar" id="pc_navbar">
         <div class="pc_innerdiv">            
             <div class="hamburger d-flex justify-content-evenly flex-column" id="hamburger">
-                <div class="bar bar1"></div>
-                <div class="bar bar2"></div>
+                <div class="bg-light bar bar1"></div>
+                <div class="bg-light bar bar2"></div>
             </div>
             <div class="pc_logo">
                 <a href="../pages/index.php">
-                    <h4>Rupesh&nbsp;Basutkar</h4>
+                    <h4 class="text-white">Rupesh&nbsp;Basutkar</h4>
                     <!-- <h4>Loremf&nbsp;ipsumhj</h4> -->
                 </a>
             </div>

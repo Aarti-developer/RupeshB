@@ -3,8 +3,26 @@
     <span class="d-none">Scroll To Top</span>
 </a>
 <!-- Scroll to top button -->
-<footer class="footer">
-    
+<footer class="footer py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="footer-content text-white text-center">
+                    <h4>Contact</h4>
+                    <p class="email-type">basutkarrupesh@gmail.com <span>| <i class="fas fa-chevron-right"></i></span></p>
+                     <h6>Follow On</h6>
+                     <ul >
+                         <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                         <li><a href="#" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+                         <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                         <li><a href="#" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+                         <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                     </ul>
+                     <p class="copyright">All rights Reserved by XXXXX</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
 
 

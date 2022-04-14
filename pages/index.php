@@ -67,7 +67,7 @@
                             </div>
                             <div class="center">
                                 <div class="right-side__img">
-                                <img class="bottle-bg" src="../assets/media/images/img-2.png" alt="">
+                                    <img class="bottle-bg" src="../assets/media/images/img-2.png" alt="">
                                     <!-- <img class="bottle-img" src="https://cdn.shopify.com/s/files/1/0689/1443/t/34/assets/savanna_OK.png?v=4783820813181844557" /> -->
                                 </div>
                             </div>
@@ -92,7 +92,7 @@
                             <div class="center">
                                 <div class="right-side__img">
 
-                                <img class="bottle-bg" src="../assets/media/images/img-1.png" alt="">
+                                    <img class="bottle-bg" src="../assets/media/images/img-1.png" alt="">
                                     <!-- <img class="bottle-img" src="https://cdn.shopify.com/s/files/1/0689/1443/t/34/assets/Glacier_OK.png?v=7185877315400411030" /> -->
                                 </div>
                             </div>
@@ -116,7 +116,7 @@
                             </div>
                             <div class="center">
                                 <div class="right-side__img">
-                                <img class="bottle-bg" src="../assets/media/images/img-2.png" alt="">
+                                    <img class="bottle-bg" src="../assets/media/images/img-2.png" alt="">
                                     <!-- <img class="bottle-img" src="https://cdn.shopify.com/s/files/1/0689/1443/t/34/assets/Coral_OK.png?v=14596995446202437119" /> -->
                                 </div>
                             </div>
@@ -138,6 +138,30 @@
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+
+        <section class="index2-section py-4" id="About">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-9 col-md-10 col-sm-12">
+                        <div class="index2-content">
+                            <h1>About</h1>
+                            <h5>LOPEFH HASUMTKA</h5>
+                            <p>Hello, <br /> <br />
+                                I Am Rupesh Basutkar,
+                                Graduated From Art Schhool Mumbai- India                            
+                            Calligrapher - Graphice Designer - Artist.</p>
+                            <p>
+                                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse m
+                            </p>
+                            <p>
+                                lestie consequat, Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper estie consequat, Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
