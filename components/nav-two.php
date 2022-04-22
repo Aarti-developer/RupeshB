@@ -10,8 +10,8 @@
             </div>
             <div class="pc_logo">
                 <a href="../pages/index.php">
-                    <h4 class="text-white">Rupesh&nbsp;Basutkar</h4>
-                    <!-- <h4>Loremf&nbsp;ipsumhj</h4> -->
+                    <!-- <h4 class="text-white">Rupesh&nbsp;Basutkar</h4> -->
+                    <h4 class="text-white">Loremf&nbsp;ipsumhj</h4>
                 </a>
             </div>
         </div>
@@ -30,7 +30,7 @@
                         </a>
                     </li>
                     <li><span>02</span>
-                        <a href="../pages/index.php#About">
+                        <a href="../pages/about.php">
                            About
                         </a>
                     </li>

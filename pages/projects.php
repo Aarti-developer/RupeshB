@@ -31,7 +31,7 @@
                                     <li>
                                         <div class="image" style="background-image:url(../assets/media/images/img-1.png);"></div>
                                         <div class="content">
-                                            <h2>Jackets Collection 2017</h2>
+                                            <h2>Jackets Collection</h2>
                                             <a href="../pages/calligraphy-images.php">Calligraphy</a>
                                         </div>
                                     </li>

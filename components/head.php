@@ -11,7 +11,8 @@ $meta["description"] = "";
 
 <!-- <base href="https://rupeshbasutkar.in"> -->
 
-<title>Rupesh Basutkar</title>
+<!-- <title>Rupesh Basutkar</title> -->
+<title>FashionTV India</title>
 
 <link rel="alternate" hreflang="en" href="https://rupeshbasutkar.in">
 

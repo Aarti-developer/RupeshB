@@ -20,3 +20,17 @@ $(document).ready(function () {
   });
 });
 
+// Swiper JS
+
+var swiper = new Swiper(".mySwiper", {
+  navigation: {
+      nextEl: ".swiper-next-button",
+      prevEl: ".swiper-prev-button"
+  },
+  effect: "fade",
+  loop: "infinite",
+  pagination: {
+      el: ".swiper-pagination",
+      type: "fraction",
+  }
+});

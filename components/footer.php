@@ -32,8 +32,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
 
 <!-- <script src="../assets/js/aos.js"></script> -->
-<script src="../assets/js/script.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="../assets/js/script.js"></script>
 <!-- <script>
     AOS.init({
         duration: 1200,

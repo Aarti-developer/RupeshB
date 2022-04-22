@@ -6,12 +6,12 @@
 
     <?php
     include_once $_SERVER['DOCUMENT_ROOT'] . "../components/head.php";
-    $meta["title"] = "Rupesh Basutkar"; ?>
+    // $meta["title"] = "Rupesh Basutkar"; ?>
     <meta property="og:title" content="<?php echo $meta["title"]; ?>">
     <meta property="og:image" content="">
     <title><?php echo $meta["title"]; ?></title>
     <meta property="og:description" content="">
-    <meta property="twitter:title" content="Rupesh Basutkar">
+    <!-- <meta property="twitter:title" content="Rupesh Basutkar"> -->
     <meta property="twitter:description" content="">
 
 </head>
@@ -29,7 +29,7 @@
                                 <div class="main-wrapper">
                                     <h1 class="main-title">Calligraphy</h1>
                                 </div>
-                                <div class="main-content">
+                                <!-- <div class="main-content">
                                     <div class="more-menu">
                                         Show More
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.7" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -39,7 +39,7 @@
                                             <line x1="15" y1="8" x2="19" y2="12" />
                                         </svg>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="center">
                                 <div class="right-side__img">
@@ -53,7 +53,7 @@
                                 <div class="main-wrapper">
                                     <h1 class="main-title">Graphic</h1>
                                 </div>
-                                <div class="main-content">
+                                <!-- <div class="main-content">
                                     <div class="more-menu">
                                         Show More
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.7" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -63,7 +63,7 @@
                                             <line x1="15" y1="8" x2="19" y2="12" />
                                         </svg>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="center">
                                 <div class="right-side__img">
@@ -77,7 +77,7 @@
                                 <div class="main-wrapper">
                                     <h1 class="main-title">Communication</h1>
                                 </div>
-                                <div class="main-content">
+                                <!-- <div class="main-content">
                                     <div class="more-menu">
                                         Show More
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.7" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -87,7 +87,7 @@
                                             <line x1="15" y1="8" x2="19" y2="12" />
                                         </svg>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="center">
                                 <div class="right-side__img">
@@ -102,7 +102,7 @@
                                 <div class="main-wrapper">
                                     <h1 class="main-title">Coral</h1>
                                 </div>
-                                <div class="main-content">
+                                <!-- <div class="main-content">
                                     <div class="more-menu">
                                         Show More
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.7" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -112,7 +112,7 @@
                                             <line x1="15" y1="8" x2="19" y2="12" />
                                         </svg>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="center">
                                 <div class="right-side__img">
@@ -125,7 +125,7 @@
                 </div>
                 <div class="button-wrapper">
                     <div class="swiper-button swiper-prev-button">
-                        <span>PREV</span>
+                        <span>PREV <i class="fas fa-long-arrow-alt-down"></i></span>
                         <!-- <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
                         </svg> -->
@@ -134,7 +134,7 @@
                         <!-- <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
                         </svg> -->
-                        <span>NEXT</span>
+                        <span> <i class="fas fa-long-arrow-alt-up"></i> NEXT </span>
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
@@ -142,31 +142,10 @@
         </section>
 
 
-        <section class="index2-section py-4" id="About">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-9 col-md-10 col-sm-12">
-                        <div class="index2-content">
-                            <h1>About</h1>
-                            <h5>LOPEFH HASUMTKA</h5>
-                            <p>Hello, <br /> <br />
-                                I Am Rupesh Basutkar,
-                                Graduated From Art Schhool Mumbai- India                            
-                            Calligrapher - Graphice Designer - Artist.</p>
-                            <p>
-                                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse m
-                            </p>
-                            <p>
-                                lestie consequat, Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper estie consequat, Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+       
     </main>
     <?php include_once "../components/footer.php"; ?>
-    <script>
+    <!-- <script>
         var swiper = new Swiper(".mySwiper", {
             navigation: {
                 nextEl: ".swiper-next-button",
@@ -180,10 +159,7 @@
             }
         });
 
-        // swiper.on('slideChange', function(sld) {
-        //     document.body.setAttribute('data-sld', sld.realIndex);
-        // })
-    </script>
+    </script> -->
 </body>
 
 </html>

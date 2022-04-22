@@ -30,12 +30,23 @@
   .button-wrapper .swiper-button span {
     /* transform: rotate(-90deg); */
     -webkit-writing-mode: vertical-lr;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+  }
+  .button-wrapper .swiper-button span:hover i{
+
+    transform: scaleY(2);
+  }
+  .button-wrapper .swiper-button span i{
+    transform: scaleY(1.5);
   }
   .swiper-pagination {
     right: 45%;
     top: 0px;
   }
-
+.explore1-content h1,
   .main-wrapper .main-title {
     font-size: 9.5vw;
   }
@@ -54,12 +65,13 @@
   .center .bottle-bg {
     width: 88vw;
     height: 505px;
-    border-radius: 10px;
     margin: 0 auto;
   }
   .button-wrapper {
     padding: 0 20px;
   }
+/* .explore1-content h1{} */
+.explore1-content h1,
   .main-wrapper .main-title {
     font-size: 11.5vw;
   }
@@ -67,7 +79,7 @@
     padding: 1.5rem 2rem;
   }
   .pc_links-main {
-    width: 85%;
+    width: 100vw;
   }
   .pc_innerdiv .pc_logo a h4 {
     font-size: 1.6rem;
@@ -121,12 +133,12 @@
     border-left-color: #000;
     border-right-width: 0;
   }
+  
   .content {
     font-size: 4rem;
-  }
-  .content {
-    top: 10em;
+    top: 6em;
     left: 50%;
+    height: 80%;
     text-align: center;
     transform: translate(-50%, -50%);
   }
@@ -180,17 +192,31 @@
   text-shadow: 4px 5px 10px #000;
   color: var(--white);
 }
+.about-page,
+.index-page {
+  padding-top: 75px;
+}
+.cd-slider li,
+.cd-slider{
+  height: 75vh;
+}
+.cd-slider{
+  margin-bottom: 6rem;
+}
 }
 
 @media screen and (max-width: 425px) {
-  .main-wrapper .main-title {
+  .explore1-content h1 {
     font-size: 12.5vw;
   }
   .button-wrapper .swiper-button {
-    width: 10px;
+    width: 30px;
   }
   .button-wrapper {
     padding: 0 5px;
+  }
+  .page-padding{
+    padding-top: 52px;
   }
   .index2-section .index2-content h1 {
     font-size: 16.5vw;
@@ -202,15 +228,27 @@
   .contact-content .contact-title {
     font-size: 14vw;
   }
+  .center .bottle-bg {
+    width: 70vw;
+    height: 60vh;
+  }
+  .pc_innerdiv .pc_logo a h4 {
+    font-size: .9rem;
+  }
+  .content{
+    top: 2em;
+  }
+  .cd-slider li,
+.cd-slider{
+  height: 300px;
+}
 }
 
 @media screen and (max-width: 375px) {
 }
 
 @media screen and (max-width: 320px) {
-  .pc_links-main {
-    width: 100%;
-  }
+  
   .footer-content .email-type {
     font-size: 0.8rem;
     gap: 2px;
@@ -219,6 +257,6 @@
     width: 98%;
   }
   .pc_innerdiv .pc_logo a h4 {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 }
