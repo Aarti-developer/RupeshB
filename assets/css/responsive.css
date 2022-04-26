@@ -203,11 +203,17 @@
 .cd-slider{
   margin-bottom: 6rem;
 }
+.cal-img .galleryItem img {
+  height: 180px;
+}
 }
 
 @media screen and (max-width: 425px) {
   .explore1-content h1 {
     font-size: 12.5vw;
+  }
+  .index2-section .index2-content p {
+    font-size: 1rem;
   }
   .button-wrapper .swiper-button {
     width: 30px;
@@ -241,6 +247,12 @@
   .cd-slider li,
 .cd-slider{
   height: 300px;
+}
+.cal-img .galleryItem img {
+  height: 120px;
+}
+.pc_links-main .pc_innerlink .pc-links_nav .pc-links li a{
+  font-size: 1rem;
 }
 }
 

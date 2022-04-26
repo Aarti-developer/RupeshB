@@ -73,6 +73,21 @@
                                     <img src="../assets/media/images/r-1.png" alt="Image Gallery" />
                                 </a>
                             </div>
+                            <div class="galleryItem">
+                                <a href="../assets/media/images/img-1.png" data-fancybox="gallery" data-caption="Caption Images 1">
+                                    <img src="../assets/media/images/img-1.png" alt="Image Gallery" />
+                                </a>
+                            </div>
+                            <div class="galleryItem">
+                                <a href="../assets/media/images/img-2.png" data-fancybox="gallery" data-caption="Caption Images 2">
+                                    <img src="../assets/media/images/img-2.png" alt="Image Gallery" />
+                                </a>
+                            </div>
+                            <div class="galleryItem">
+                                <a href="../assets/media/images/r-1.png" data-fancybox="gallery" data-caption="Caption Images 3">
+                                    <img src="../assets/media/images/r-1.png" alt="Image Gallery" />
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

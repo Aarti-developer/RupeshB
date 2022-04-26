@@ -18,9 +18,23 @@
 </head>
 
 <body>
+    <style>
+        .swiper {
+            margin: 50px auto;
+            width: auto;
+            height: 230px;
+            
+        }
+
+        .swiper-slide {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
     <?php include_once "../components/nav.php"; ?>
     <main class="projects-page page-padding">
-        <section class="cimage-section">
+        <!-- <section class="cimage-section">
             <div class="container">
                 <div class="row">
                     <div class="col-12 p-0">
@@ -69,12 +83,60 @@
                     </div>
                 </div>
             </div>
-    
+
+        </section> -->
+        <section class="project1-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="project1-content">
+                            <div class="swiper mySwiper1">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="project-slider-image">
+                                            <img src="../assets/media/images/img-1.png" alt="">
+                                            <h1><a href="../pages/calligraphy-images.php">Calligraphy</a> </h1>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project-slider-image">
+                                            <img src="../assets/media/images/img-2.png" alt="">
+                                            <h1><a href="../pages/calligraphy-images.php">Calligraphy</a> </h1>
+
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project-slider-image">
+                                            <img src="../assets/media/images/r-1.png" alt="">
+                                            <h1><a href="../pages/calligraphy-images.php">Calligraphy</a> </h1>
+
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project-slider-image">
+                                            <img src="../assets/media/images/r-2.png" alt="">
+                                            <h1><a href="../pages/calligraphy-images.php">Calligraphy</a> </h1>
+
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project-slider-image">
+                                            <img src="../assets/media/images/r-3.png" alt="">
+                                            <h1><a href="../pages/calligraphy-images.php">Calligraphy</a> </h1>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination swp_custom-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        </main>
+    </main>
     <?php include_once "../components/footer.php"; ?>
-    <script>
-       
+    <!-- <script>
         (function() {
 
             function init(item) {
@@ -210,6 +272,26 @@
             });
 
         })();
+    </script> -->
+    <script>
+        var swiper = new Swiper(".mySwiper1", {
+            grabCursor: true,
+            effect: "creative",
+            pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+            creativeEffect: {
+                prev: {
+                    shadow: true,
+                    translate: [0, 0, -400],
+                },
+                next: {
+                    translate: ["100%", 0, 0],
+                },
+            },
+        });
     </script>
 </body>
+
 </html>

@@ -1,7 +1,7 @@
 <!--  -->
 
 <!--  -->
-<header class="pc_header">
+<header class="pc_header" style="background-color: #000;">
     <nav class="pc_navbar" id="pc_navbar">
         <div class="pc_innerdiv">            
             <div class="hamburger d-flex justify-content-evenly flex-column" id="hamburger">
