@@ -22,12 +22,13 @@
         .swiper {
             margin: 50px auto;
             width: auto;
-            height: 230px;
+            height: 450px;
             
         }
 
         .swiper-slide {
             display: flex;
+            height: 450px;
             align-items: center;
             justify-content: center;
         }
@@ -114,7 +115,7 @@
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="project-slider-image">
-                                            <img src="../assets/media/images/r-2.png" alt="">
+                                            <img src="../assets/media/images/img-2.png" alt="">
                                             <h1><a href="../pages/calligraphy-images.php">Calligraphy</a> </h1>
 
                                         </div>

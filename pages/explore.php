@@ -41,7 +41,7 @@
             <div class="row">
                         <div class="col-12">
                             <div class="explore1-content text-center">
-                                 <h1>Explore</h1>
+                                 <!-- <h1>Explore</h1> -->
                                  <p>Photography</p>
                             </div>
                         </div>
