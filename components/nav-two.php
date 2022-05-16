@@ -3,23 +3,24 @@
 <!--  -->
 <header class="pc_header" style="background-color: #000;">
     <nav class="pc_navbar" id="pc_navbar">
-        <div class="pc_innerdiv">            
-            <div class="hamburger d-flex justify-content-evenly flex-column" id="hamburger">
-                <div class="bg-light bar bar1"></div>
-                <div class="bg-light bar bar2"></div>
-            </div>
+        <div class="pc_innerdiv">
             <div class="pc_logo">
                 <a href="../pages/index.php">
                     <!-- <h4 class="text-white">Rupesh&nbsp;Basutkar</h4> -->
                     <h4 class="text-white">Loremf&nbsp;ipsumhj</h4>
                 </a>
             </div>
+            <div class="hamburger d-flex justify-content-evenly flex-column" id="hamburger">
+                <div class="bg-light bar bar1"></div>
+                <div class="bg-light bar bar2"></div>
+            </div>
+
         </div>
     </nav>
     <!--  -->
     <div class="pc_links-main" id="pc_link">
         <div class="pc_innerlink">
-        <span class="btn-close btn-close-white" id="btn_sideNavClose"><i></i><i></i></span>
+            <span class="btn-close btn-close-white" id="btn_sideNavClose"><i></i><i></i></span>
 
             <nav class="pc-links_nav">
                 <!-- <img class="img-overlay" src="../assets/media/images/p-4.png" alt=""> -->
@@ -31,7 +32,7 @@
                     </li>
                     <li><span>02</span>
                         <a href="../pages/about.php">
-                           About
+                            About
                         </a>
                     </li>
                     <li><span>03</span>
@@ -90,8 +91,7 @@
         hamburger.classList.toggle("hamburger-toggle");
         menuLinks.classList.toggle("active");
     });
-    btnClose.addEventListener("click", ()=> {
+    btnClose.addEventListener("click", () => {
         menuLinks.classList.remove("active");
     });
-
 </script>
